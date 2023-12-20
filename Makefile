@@ -17,4 +17,4 @@ embeddings.chunks.bin embeddings.title.bin embeddings.summary.bin:
 	
 
 clean:
-	rm -rf data data.json augmented_data.json
+	rm -rf data data.json augmented_data.json embeddings.chunks.bin embeddings.title.bin embeddings.summary.bin

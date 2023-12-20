@@ -2,7 +2,7 @@ import json
 from tqdm import tqdm
 from sentence_transformers import SentenceTransformer
 
-model = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
+model = SentenceTransformer('BAAI/bge-small-en-v1.5')
 
 def write_embeddings(data, key):
     with open(f"embeddings.{key}.bin", 'wb') as out:

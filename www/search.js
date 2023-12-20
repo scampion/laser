@@ -11,12 +11,13 @@ let outputDiv = document.getElementById('outputDiv');
 let submitButton = document.getElementById('submitButton');
 
 const status = document.getElementById('status');
-status.textContent = 'Loading model...';
-const extractor = await pipeline('feature-extraction', 'Xenova/all-MiniLM-L6-v2', { quantized: false });
+status.textContent = '⏳ Loading model ..., please wait a few seconds';
+const extractor = await pipeline('feature-extraction', 'Xenova/bge-small-en-v1.5', { quantized: true });
+const dim = 384;
 status.textContent = 'Model loaded, loading vectors...';
-let chunk_vectors = await loadBinaryFileFloat32('embeddings.chunks.bin', 384);
-let title_vectors = await loadBinaryFileFloat32('embeddings.title.bin', 384);
-let summary_vectors = await loadBinaryFileFloat32('embeddings.summary.bin', 384);
+let chunk_vectors = await loadBinaryFileFloat32('embeddings.chunks.bin', dim);
+let title_vectors = await loadBinaryFileFloat32('embeddings.title.bin', dim);
+let summary_vectors = await loadBinaryFileFloat32('embeddings.summary.bin', dim);
 
 status.textContent = 'Vectors loaded';
 status.textContent = 'Ready'; 
