@@ -1,0 +1,9 @@
+*.bin
+.idea
+data
+cache
+embeddings
+data.json
+augmented_data.json
+__pycache__
+

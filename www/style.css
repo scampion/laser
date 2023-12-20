@@ -1,0 +1,114 @@
+html,
+body {
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    background-color: #00011B;
+    color: #ffffff;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.centered-content {
+    display: flex; /* Enables flexbox */
+    align-items: center; /* Vertically centers the content */
+    justify-content: center; /* Horizontally centers the content */
+    text-align: center; /* Ensures the text is centered */
+}
+
+.centered-content h1,
+.centered-content img {
+    margin: 10; 
+    padding: 0; 
+    font-size: 2.4em;
+    font-weight: 600;
+    height: 100px;
+
+}
+
+#submitButton {
+    background-color: #428fdd; /* Green 66	143	221	 */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+#inputText {
+    width: 80%;
+    height: 100px;
+    font-size: large;
+    text-align: left;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+#outputDiv {
+    font-size: large;
+    text-align: left;
+}
+
+#outputDiv > ul > li {
+    margin: 10;
+    margin-bottom: 30;
+    padding: 10;
+    font-size: large;
+    list-style-type: none;
+}
+
+#outputDiv > ul > li > a{ 
+    color: lightgray;
+    text-decoration: none;
+    font-weight: 600;    
+}
+
+.citation {
+    font-size: small;
+    color: #ccc;
+    text-align: right;
+    margin-right: 10%;
+    font-style: italic;
+    border-bottom: lightyellow;
+}
+
+#outputDiv > ul > li > h3 > a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#outputDiv > ul > li > span > a
+{
+    color: #F9D65F;
+    text-decoration: none;
+    font-style: normal;
+}
+
+
+.doc {
+    display: flex;
+    width: 100%;
+}
+
+.doc > div {
+    width: 30%;
+    font-size: small;
+    text-align: left;
+    margin: 20px;
+}
+
+.footer {
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00011B;
+    color: #8c8c8c;
+    font-size: 0.8em;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

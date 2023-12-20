@@ -1,0 +1,5 @@
+openai==0.28
+onnx
+onnxruntime
+sentence_transformers
+pypdf
