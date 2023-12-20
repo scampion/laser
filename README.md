@@ -4,6 +4,7 @@ This project is an example of how LLMs can be used to enhance data and facilitat
 
  This project also includes the implementation of a search tool entirely based on JavaScript, to enable the search engine to be used offline and in a truly confidential way, since it does not require any server. This is also a way of facilitating the operational deployment of this type of search engine.
 
+Demo available at https://dev240.d3tchiwuma3a48.amplifyapp.com/
 
  ## Licence 
  Open source and free under the EUPL v 1.1 
