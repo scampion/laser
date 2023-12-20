@@ -8,6 +8,7 @@ body {
     margin-right: 10%;
 }
 
+
 .centered-content {
     display: flex; /* Enables flexbox */
     align-items: center; /* Vertically centers the content */
@@ -25,6 +26,13 @@ body {
 
 }
 
+.centered-content a {
+    color: #F9D65F;
+    text-decoration: none;
+    font-style: normal;
+}
+
+
 #submitButton {
     background-color: #428fdd; /* Green 66	143	221	 */
     border: none;
@@ -40,7 +48,7 @@ body {
 
 #inputText {
     width: 80%;
-    height: 100px;
+    height: 50px;
     font-size: large;
     text-align: left;
     padding: 10px;
