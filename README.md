@@ -6,7 +6,10 @@ This project is an example of how LLMs can be used to enhance data and facilitat
 
 Demo available at https://dev240.d3tchiwuma3a48.amplifyapp.com/
 
+![image-20240103101314061](img/README/image-20240103101314061.png)
+
  ## Licence 
+
  Open source and free under the EUPL v 1.1 
 
  ## Author
